@@ -1,0 +1,267 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(Supreme.jpg)
+}
+
+
+	/*CABECERA*/
+	header{
+		max-width: 1150px;
+		min-height: 130px;
+		margin:0 auto;
+		border-radius: 20px;
+		border-radius: 20px 20px 0 0;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,c6c6c6+19 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #c6c6c6 19%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#c6c6c6 19%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ffffff 0%,#c6c6c6 19%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c6c6c6',GradientType=0 ); /* IE6-9 */
+
+	}
+
+
+	#logo{
+		width: 320px;
+		float: left;
+		margin-top: 20px;
+		margin-left: 20px;
+		animation: 1.5s entradalogo 1;
+	}
+
+	#logo a:hover img{
+		filter:grayscale(100);
+	}
+
+	/*CABECERA*/
+
+
+/*MENU-HORIZONTAL*/
+#menu-h{
+	max-width: 1150px;
+	min-height: 50px;
+	margin: 0 auto;
+	background:red;
+}
+#menu-h ul{
+	list-style: none;
+	display: flex;
+	justify-content: left:45px;
+}
+
+#menu-h a{
+	color: black;
+	text-decoration: none;
+	padding: 20px;
+	display: block;
+	background:red;
+	font-family: arial;
+	font-size: 18px;
+}
+
+#menu-h ul ul{
+	display: none;
+	position: absolute;
+}
+
+
+
+#menu-h a:hover{
+	background:white;
+	color:red;
+
+}
+
+#menu-h ul li:hover ul{
+display: block;
+}
+
+
+/*MENU-HORIZONTAL*/
+
+
+#banner{
+	max-width: 1150px;
+	min-height: 300px;
+	background:red;
+	margin: 0 auto;
+}
+
+#contenedor{
+max-width: 1150px;
+min-height: 700px;
+background: #fff;
+margin: 0 auto;
+}
+
+/*MENU-VERTICAL*/
+
+#mmenu-v{
+	width: 300px;
+	min-height: 700px;
+	background: linear-gradient(#ccc, #818181);
+	float: left;
+	}
+
+#mmenu-v ul{
+	list-style: none;
+	padding: 10px;
+
+}
+
+#mmenu-v a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	background: white;
+	padding: 10px;
+	margin-bottom: 8px;
+	border-radius: 5px;
+	font-family: arial;
+	font-size: 18px;
+}
+
+#mmenu-v a:hover{
+	background: red;
+}
+
+#mmenu-v a:hover img{
+	animation: 1s rotacion 1;
+}
+
+/*MENU-VERTICAL*/
+
+
+/*CONTENIDO*/
+#contenido{
+	width: 850px;
+	min-height: 700px;
+	background: linear-gradient(#F7F6F6, #A6A6A6);
+	float: left;
+	padding: 15px;
+	box-sizing: border-box;
+
+}
+
+#contenido h2{
+text-align: center;
+margin-bottom: 20px;
+}
+
+
+#contenido p {
+	margin-bottom: 30px;
+	font-family: arial;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.img-izq{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+/*CONTENIDO*/
+
+/*PIE DE PAGINA*/
+
+footer{
+	max-width:  1150px;
+	background: black;
+	margin: 0 auto;
+	border-radius: 0 0 20px 20px; 
+	color: white;
+	text-align: center;
+	padding: 30px;
+	box-sizing: border-box;
+	font-family: arial;
+	font-size: 18px;
+}
+
+/*PIE DE PAGINA*/
+
+
+#logo2{
+		width: 50px;
+		float: right;
+	
+
+	}
+
+.slider1 {
+	width: 1150px;
+	margin: auto;
+	overflow: hidden;
+	
+
+}
+
+.slider1 ul {
+	display: flex;
+	padding: 0;
+	width: 1150px;
+	animation: cambio 4s infinite alternate linear;
+}
+
+.slider1 li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider1 img {
+	width: 1150px;
+	height: 300px;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+
+}
+
+ button{
+  width: 250px;
+  height: 80px;
+  background:red;
+  margin-top: 10px;
+  color:white;
+
+ }
+
+ button a:hover{
+ 	background:red;
+ }
+
+
+ /*KEYFRAMES*/
+ @keyframes entradalogo{
+0%{transform: translateY(-200px);
+ }}
+
+
+
+
+
+@keyframes rotacion{
+	0%{
+		transform: rotate(270deg);
+	}
+}
+
+/*KEYFRAMES*/
